@@ -1,7 +1,6 @@
-Anleitung: Homebridge auf Raspberry Pi installieren
+
 
 1) Grundlegende Updates und Software installieren:
-
 
 	sudo apt-get update
 	sudo apt-get dist-upgrade
@@ -13,13 +12,10 @@ Anleitung: Homebridge auf Raspberry Pi installieren
 
 2) Node installieren
 
-
 	wget https://nodejs.org/dist/v4.0.0/node-v4.0.0-linux-armv7l.tar.gz 
 	tar -xvf node-v4.0.0-linux-armv7l.tar.gz 
 	cd node-v4.0.0-linux-armv7l
 	sudo cp -R * /usr/local/
-
-Um die Installation zu überprüfen  den Befehl node –v ausführen. In diesem Fall sollte die Ausgabe v-4.0.0 sein.
 
 
 3) Homebridge installieren
