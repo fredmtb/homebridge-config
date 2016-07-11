@@ -24,7 +24,7 @@ Um die Installation zu überprüfen  den Befehl node –v ausführen. In diesem 
 
 3) Homebridge installieren
 
-	git clone https://github.com/mattrayner/homebridge-config.git
+	git clone https://github.com/fredmtb/homebridge-config.git
 	cd homebridge-config
 	sudo npm install -g homebridge homebridge-fhem
 	sh install.sh
